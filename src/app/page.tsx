@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -10,9 +10,9 @@ import SocialProofTwo from '@/components/sections/socialProof/SocialProofTwo';
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
-import { Award, Sparkles, Home, Crown, MessageCircle, Globe, Mail } from 'lucide-react';
+import { Award, Sparkles, Crown, MessageCircle, Globe, Mail } from 'lucide-react';
 
-export default function Home() {
+export default function HomePage() {
   return (
     <ThemeProvider
       defaultButtonVariant="shift-hover"
@@ -52,7 +52,7 @@ export default function Home() {
             }
           ]}
           imageSrc="https://images.pexels.com/photos/189295/pexels-photo-189295.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-          imageAlt="Luxurious hotel lobby with elegant furnishings"
+          imageAlt="Elegant lobby with comfortable sofas, large windows, and natural light enhancing the indoor ambiance."
         />
       </div>
 
@@ -67,19 +67,19 @@ export default function Home() {
               title: "Luxury Spa & Wellness",
               description: "Rejuvenate your mind and body at our award-winning spa featuring therapeutic treatments and state-of-the-art wellness facilities",
               imageSrc: "https://images.pexels.com/photos/6957079/pexels-photo-6957079.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Spa and wellness center"
+              imageAlt: "Serene indoor pool area with modern design and spiral staircase."
             },
             {
               title: "Fitness & Recreation",
               description: "Stay active with our fully equipped fitness center, Olympic-size pool, and personalized training programs available 24/7",
               imageSrc: "https://images.pexels.com/photos/4498574/pexels-photo-4498574.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Modern fitness center"
+              imageAlt: "Faceless slim female athlete in sportswear standing with blue fitness mat and water bottle while preparing for indoors workout"
             },
             {
               title: "Fine Dining Experience",
               description: "Savor culinary excellence at our signature restaurants featuring world-renowned chefs and locally sourced ingredients",
               imageSrc: "https://images.pexels.com/photos/2291636/pexels-photo-2291636.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Elegant hotel restaurant"
+              imageAlt: "Elegant rooftop restaurant with poolside dining at sunset. Perfect for a luxurious dining experience."
             }
           ]}
         />
@@ -90,7 +90,6 @@ export default function Home() {
           title="Exceptional Accommodations"
           description="Choose from our carefully curated selection of rooms and suites"
           tag="Room Packages"
-          tagIcon={Home}
           plans={[
             {
               id: "deluxe",
@@ -180,8 +179,7 @@ export default function Home() {
               company: "Fortune 500 Company",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Sarah Mitchell portrait",
-              testimonial: "The Grand Azure Hotel exceeded all my expectations. The service was impeccable, the room was luxurious, and the spa treatments were absolutely divine. I'll definitely be returning."
+              imageAlt: "Confident businesswoman using her tablet and phone, smiling outdoors in sunlight."
             },
             {
               id: "2",
@@ -190,8 +188,7 @@ export default function Home() {
               company: "Luxury Travel Magazine",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/6517333/pexels-photo-6517333.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Robert Chen portrait",
-              testimonial: "As a travel professional, I've stayed at many luxury hotels worldwide. Grand Azure Hotel stands out for its exceptional attention to detail and personalized service that makes every guest feel special."
+              imageAlt: "A businessman in a suit engaged in a phone call while working at his desk."
             },
             {
               id: "3",
@@ -200,8 +197,7 @@ export default function Home() {
               company: "Elite Events Co.",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/8424477/pexels-photo-8424477.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Emily Rodriguez portrait",
-              testimonial: "I organized a corporate event here and was blown away by the professionalism of the staff. From planning to execution, everything was flawless. The venue is stunning and the service unmatched."
+              imageAlt: "Two professional women engaged in a business meeting, taking notes and discussing work."
             },
             {
               id: "4",
@@ -210,8 +206,7 @@ export default function Home() {
               company: "Tech Innovation Inc.",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/3823491/pexels-photo-3823491.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "David Thompson portrait",
-              testimonial: "The Presidential Suite was extraordinary. From the private concierge to the panoramic views, every aspect was designed for luxury. The business center facilities were also top-notch for my work needs."
+              imageAlt: "Senior man in formal attire using a laptop and holding money, symbolizing financial success."
             }
           ]}
         />
@@ -278,7 +273,7 @@ export default function Home() {
           buttonText="Subscribe"
           termsText="By subscribing, you agree to receive promotional emails. You can unsubscribe at any time."
           imageSrc="https://images.pexels.com/photos/8425035/pexels-photo-8425035.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-          imageAlt="Hotel entrance with valet service"
+          imageAlt="A professional chauffeur assists a businesswoman exiting a luxury car in front of a modern building."
           mediaPosition="right"
         />
       </div>
